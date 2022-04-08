@@ -1,8 +1,3 @@
-
-
-
-
-```
 global my_table : table[addr] of set[string];
 global my_table_len : table[addr] of int;
 event http_reply(c: connection, version: string, code: count, reason: string){
@@ -38,6 +33,3 @@ event zeek_done()
 		}
 	}
 }
-
-```
-
